@@ -4,7 +4,6 @@ class CreateCategories < ActiveRecord::Migration[7.0]
       t.string :icon
       t.string :name
       t.integer :author_id
-      t.references :user, null: false, foreign_key: true
 
       t.timestamps
     end

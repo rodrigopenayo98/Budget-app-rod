@@ -18,10 +18,8 @@ ActiveRecord::Schema[7.0].define(version: 20_231_025_024_506) do
     t.string 'icon'
     t.string 'name'
     t.integer 'author_id'
-    t.bigint 'user_id', null: false
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
-    t.index ['user_id'], name: 'index_categories_on_user_id'
   end
 
   create_table 'transaction_categories', force: :cascade do |t|
@@ -60,7 +58,6 @@ ActiveRecord::Schema[7.0].define(version: 20_231_025_024_506) do
     t.index ['reset_password_token'], name: 'index_users_on_reset_password_token', unique: true
   end
 
-  add_foreign_key 'categories', 'users'
   add_foreign_key 'transaction_categories', 'categories'
   add_foreign_key 'transaction_categories', 'transactions'
   add_foreign_key 'transactions', 'users'
