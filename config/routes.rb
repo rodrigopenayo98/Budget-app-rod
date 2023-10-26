@@ -2,12 +2,12 @@ Rails.application.routes.draw do
   devise_for :users
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  authenticated :user do
-    root 'categories#index', as: :authenticated_root
+  unauthenticated do
+    root 'splash_screen#index', as: :unauthenticated_root
   end
 
-  unauthenticated do
-    root 'users#index'
+  authenticated :user do
+    root 'categories#index', as: :authenticated_root
   end
 
   resources :categories do
