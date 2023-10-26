@@ -8,7 +8,7 @@ class TransactionsController < ApplicationController
 
   def create
     @transaction = current_user.transactions.new(transaction_params)
-    @transaction.author_id = current_user.id
+    @transaction.user_id = current_user.id
 
     if @transaction.save
       redirect_to category_transactions_path(category_id: transaction_params[:category_id]), notice: 'Transaction was successfully saved.'
@@ -25,6 +25,6 @@ class TransactionsController < ApplicationController
   private
 
   def transaction_params
-    params.require(:transaction).permit(:name, :amount, :category_id)
+    params.require(:transaction).permit(:name, :amount, :category_id, :user_id)
   end
 end
