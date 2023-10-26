@@ -195,5 +195,17 @@ h1{
   .links-container a:hover {
     text-decoration: underline;
   }
+
+  .title-sign-up{
+    background-color: #154360 ;
+    height: 70px;
+    margin-top: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 45px;
+    margin-bottom: 60px;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+  }
   
 }
