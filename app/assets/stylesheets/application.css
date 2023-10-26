@@ -95,4 +95,105 @@ h1{
   .links-container-splash a:active{
     background-color: #031f30
   }
+
+  .title-log-in{
+    background-color: #154360 ;
+    height: 70px;
+    margin-top: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 45px;
+    margin-bottom: 60px;
+    color: aliceblue;
+    padding: 15px;
+    text-align: center;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .email-input{
+  padding: 10px;
+  width: 320px;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+  .pass-input{
+    padding: 10px;
+    width: 320px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .label-input{
+    font-family: 'Nunito', sans-serif; 
+    font-size: medium;
+    padding-bottom: 10px;
+  }
+
+  .field-check{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .label-check{
+    text-align: center;
+    font-family: 'Nunito', sans-serif; 
+    font-size: medium;
+  }
+
+  .btn-log-in{
+    width: 160px;
+    padding: 5px;
+    background-color: #154360;
+    color: azure;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .btn-log-in:hover{
+    background-color: #2d7cad
+  }
+
+  .btn-log-in a:active{
+    background-color: #031f30
+  }
+
+  .links-container-splash a:hover{
+    background-color: #2d7cad
+  }
+
+  .links-container-splash a:active{
+    background-color: #031f30
+  }
+
+  .links-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .links-container a {
+    text-decoration: none;
+    color: #031f30;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+  }
+
+  .links-container a:hover {
+    text-decoration: underline;
+  }
+  
 }
