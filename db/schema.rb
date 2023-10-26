@@ -38,6 +38,7 @@ ActiveRecord::Schema[7.0].define(version: 20_231_025_024_506) do
     t.bigint 'user_id', null: false
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
+    t.integer 'category_id'
     t.index ['user_id'], name: 'index_transactions_on_user_id'
   end
 

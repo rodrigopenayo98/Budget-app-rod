@@ -8,5 +8,6 @@ class CreateTransactions < ActiveRecord::Migration[7.0]
 
       t.timestamps
     end
+    add_reference :transactions, :category, foreign_key: true
   end
 end
