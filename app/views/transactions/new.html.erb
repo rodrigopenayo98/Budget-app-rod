@@ -1,10 +1,8 @@
-<div class="transaction-header">
+<div class="category-header">
   <a class="back-button" href="<%= category_transactions_path(@category) %>">
     <img class="back-icon" src="<%= asset_path('back.png') %>" alt="Back">
   </a>
-
-  <h2>Add a New Transaction</h2>
-
+  <h2 class="add-new-cat-title">Add a New Transaction</h2>
 </div>
 
 <%= form_with(model: [@category, @transaction], url: category_transactions_path(@category)) do |form| %>
@@ -12,18 +10,18 @@
   <div class="transaction-form-container">
 
     <div class="form-field">
-      <%= form.text_field :name, autofocus: true, autocomplete: "name", placeholder: "Transaction Name", class: "form-input", required: true %>
+      <%= form.text_field :name, autofocus: true, autocomplete: "name", placeholder: "Transaction Name", class: "form-input", required: true, class: "transaction-name-input"  %>
     </div>
 
     <div class="form-field">
-      <%= form.number_field :amount, autocomplete: "amount", placeholder: "Amount", class: "form-input", required: true %>
+      <%= form.number_field :amount, autocomplete: "amount", placeholder: "Amount", class: "form-input", required: true, class: "email-input" %>
     </div>
 
-    <div class="form-field">
+    <div class="form-field-slect">
       <%= form.collection_select :category_id, Category.all, :id, :name, prompt: 'Select a Category', class: "select" %>
     </div>
 
-    <div class="form-button-container">
+    <div class="form-btn-save">
       <%= form.submit 'Save', class: "btn-save" %>
     </div>
   </div>

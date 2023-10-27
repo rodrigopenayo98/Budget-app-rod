@@ -2,22 +2,21 @@
   <a class="back-button" href="<%= categories_path %>">
     <img class="back-icon" src="<%= asset_path('back.png') %>" alt="back-icon">
   </a>
-  <div class="main-title-contaienr">
-  <h1 class="main-title">Add a New Category</h1>
+  <h1 class="add-new-cat-title">Add a New Category</h1>
 </div>
-</div>
+
 
 <%= form_with(model: @category, url: categories_path) do |form| %>
   <div class="category-form">
     <div class="form-field">
-      <%= form.text_field :name, autofocus: true, autocomplete: "name", placeholder: "Category", class: "form-input", required: true %>
+      <%= form.text_field :name, autofocus: true, autocomplete: "name", placeholder: "Category", class: "form-input", required: true, class: "email-input" %>
     </div>
 
     <div class="form-field">
-      <%= form.text_field :icon, autocomplete: "icon", placeholder: "Icon URL", class: "form-input", required: true %>
+      <%= form.text_field :icon, autocomplete: "icon", placeholder: "Icon URL", class: "form-input", required: true, class: "email-input" %>
     </div>
 
-    <div class="form-btnr">
+    <div class="form-btn-save">
       <%= form.submit 'Save', class: "btn-save" %>
     </div>
   </div>

@@ -1,25 +1,22 @@
-<div class="header">
+<div class="header-transactions">
   <a class="back-button" href="<%= categories_path(@category) %>">
       <img class="back-icon" src="<%= asset_path('back.png') %>" alt="back-icon">
   </a>
 
-  <h2>Transactions</h2>
+  <h2 class="title-transactions">Transactions</h2>
 
 </div>
-  <div class="category-container">
-        <div class="category-image-container">
-           <img class = "category-image" src= "<%= asset_path('transaction.png') %>" alt="<%= @category.name %>_image">
-        </div>
-        <p class="category-name"><%= @category.name %></p>
-      </div>
-      <p class="category-amount">$<%= @category.total_amount %></p>
-      </div>
 
-<div class="transactions">
+<div class="individual-category-container">
+  <h2 class="category-name-individual"><%= @category.name %></h2>
+  <p class="category-amount-individual">$<%= @category.total_amount %></p>
+</div>
+
+<div class="categories">
 
     <% @transactions.each do |transaction| %>
 
-      <div class="transaction-item">
+      <div class="container-category">
         <p class="transaction-name"><%= transaction.name %></p>
         <p class="transaction-amount">$<%= transaction.amount %></p>
       </div>
@@ -27,7 +24,9 @@
     <% end %>
     </div>
 
+  <div class="add-transaction-btn-cont">
   <a class="add-transaction-a" href="<%= new_category_transaction_path(@category) %>">
     <button class="add-transaction-btn">Add a New Transaction</button>
   </a>
+  </div>
 </div>
