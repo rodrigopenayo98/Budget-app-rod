@@ -380,5 +380,72 @@ h1{
   .btn-add-category:active{
     background-color: #031f30
   }
+
+  .add-new-cat-title{
+    background-color: #154360 ;
+    height: 70px;
+    margin-top: 56px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: aliceblue;
+    padding: 15px;
+    padding-bottom: 3px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    border: none;
+  }
+
+  .category-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+  }
+
+  .back-button{
+    margin-right: auto;
+    background-color: #154360;
+    height: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    height: auto;
+    border-right: 1px solid #154360;
+  }
+
+  .category-form{
+    margin-top: 40px;
+  }
+
+  .btn-save{
+    margin-top: 25px;
+    width: 160px;
+    padding: 5px;
+    background-color:#154360;
+    color:aliceblue;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 25px;
+  }
+  
+  .form-btn-save{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-save:hover {
+    background-color: #2d7cad
+  }
+
+  .btn-save:active{
+    background-color: #031f30
+  }
+
 }
 
