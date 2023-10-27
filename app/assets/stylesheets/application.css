@@ -352,10 +352,33 @@ h1{
     width: 85px;
   }
 
-  .add-category{
+  .add-category-container{
   display: flex;
   justify-content: center;
   align-items: center;
+  }
+
+  .add-category-container a{
+    text-decoration: none;
+  }
+
+  .btn-add-category{
+    margin-top: 25px;
+    width: 160px;
+    padding: 5px;
+    background-color:#154360;
+    color:aliceblue;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 25px;
+  }
+
+  .btn-add-category:hover {
+    background-color: #2d7cad
+  }
+
+  .btn-add-category:active{
+    background-color: #031f30
   }
 }
 
