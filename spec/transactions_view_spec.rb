@@ -7,11 +7,11 @@ RSpec.describe 'transactions/index.html.erb', type: :view do
       @category.transactions.create(name: 'Transaction1', amount: 100),
       @category.transactions.create(name: 'Transaction2', amount: 200)
     ]
-  
+
     assign(:category, @category)
     assign(:transactions, @transactions)
   end
-  
+
 
   it 'displays the transactions for a category and provides a link to add a new transaction' do
     render
