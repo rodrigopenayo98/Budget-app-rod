@@ -544,3 +544,511 @@ h1{
   }
 
 }
+
+html{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  margin-top: 0px;
+}
+
+.header-splash{
+  background-color: #154360 ;
+  height: 85px;
+}
+
+.title-splash{
+  font-family: 'Nunito', sans-serif;
+  font-size: 45px;
+  margin-bottom: 60px;
+}
+
+.content-splash{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  padding-top: 45px;
+  padding-left: 40px;
+}
+
+.links-container-splash{
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+}
+
+.links-container-splash a{
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  padding: 20px;
+  background-color: #154360;
+  color: azure;
+  margin-left: 25px;
+  margin-right: 45px;
+  width: 60px;
+  text-align: center;
+}
+
+.links-container-splash a:hover{
+  background-color: #2d7cad
+}
+
+.links-container-splash a:active{
+  background-color: #031f30
+}
+
+.title-log-in{
+  background-color: #154360 ;
+  height: 70px;
+  margin-top: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 45px;
+  margin-bottom: 60px;
+  color: aliceblue;
+  padding: 15px;
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-input{
+padding: 10px;
+width: 320px;
+font-family: 'Nunito', sans-serif;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.pass-input{
+  padding: 10px;
+  width: 320px;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.label-input{
+  font-family: 'Nunito', sans-serif; 
+  font-size: medium;
+  padding-bottom: 10px;
+}
+
+.field-check{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.label-check{
+  text-align: center;
+  font-family: 'Nunito', sans-serif; 
+  font-size: medium;
+}
+
+.btn-log-in{
+  width: 160px;
+  padding: 5px;
+  background-color: #154360;
+  color: azure;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.btn-log-in:hover{
+  background-color: #2d7cad
+}
+
+.btn-log-in a:active{
+  background-color: #031f30
+}
+
+.links-container-splash a:hover{
+  background-color: #2d7cad
+}
+
+.links-container-splash a:active{
+  background-color: #031f30
+}
+
+.links-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.links-container a {
+  text-decoration: none;
+  color: #031f30;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+}
+
+.links-container a:hover {
+  text-decoration: underline;
+}
+
+.title-sign-up{
+  background-color: #154360 ;
+  height: 70px;
+  margin-top: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 45px;
+  margin-bottom: 60px;
+  color: aliceblue;
+  padding: 15px;
+  text-align: center;
+}
+
+.title-resend {
+  background-color: #154360 ;
+  height: 70px;
+  margin-top: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  margin-bottom: 60px;
+  color: aliceblue;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-resend{
+  width: 220px;
+  padding: 5px;
+  background-color: #154360;
+  color: azure;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-resend:hover {
+  background-color: #2d7cad
+}
+
+.btn-resend:active{
+  background-color: #031f30
+}
+
+.contaienr-img{
+  width: 30px;
+  height: 30px;
+}
+
+.category-image{
+  width: 30px;
+  height: 30px;
+}
+
+.main-title-contaienr{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #154360 ;
+  height: 70px;
+  margin-top: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  margin-bottom: 60px;
+  color: aliceblue;
+  padding: 15px;
+  align-items: center;
+}
+
+.main-title {
+  flex: 1;
+  text-align: center;
+}
+
+button {
+  margin-left: auto;
+}
+
+.btn-log-out{
+  width: 60px;
+  padding: 5px;
+  background-color:aliceblue;
+  color:#154360;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-log-out:hover {
+  background-color: #888b8d
+}
+
+.btn-log-out:active{
+  background-color: #161a1d
+}
+
+.container{
+  background-color: #E5E7E9;
+  height: 100vh;
+}
+
+.categories {
+  margin: 15px;
+}
+
+.container-category{
+  border: 1px solid #d3d4d5;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 90px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.container-img{
+  width: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-p{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+.categories a{
+  text-decoration: none;
+}
+
+.category-name{
+  text-decoration: none;
+  color: #031f30;
+}
+
+.category-name:hover{
+  text-decoration: underline;
+}
+
+.category-amount{
+  text-decoration: none;
+  color: #031f30;
+  font-weight: 700;
+}
+
+.category-image{
+  height: 85px;
+  width: 85px;
+}
+
+.add-category-container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.add-category-container a{
+  text-decoration: none;
+}
+
+.btn-add-category{
+  margin-top: 25px;
+  width: 160px;
+  padding: 5px;
+  background-color:#154360;
+  color:aliceblue;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.btn-add-category:hover {
+  background-color: #2d7cad
+}
+
+.btn-add-category:active{
+  background-color: #031f30
+}
+
+.add-new-cat-title{
+  background-color: #154360 ;
+  height: 70px;
+  margin-top: 56px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  margin-bottom: 60px;
+  color: aliceblue;
+  padding: 15px;
+  padding-bottom: 3px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  border: none;
+}
+
+.category-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+.back-button{
+  margin-right: auto;
+  background-color: #154360;
+  height: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 0px;
+  height: auto;
+  border-right: 1px solid #154360;
+}
+
+.category-form{
+  margin-top: 40px;
+}
+
+.btn-save{
+  margin-top: 25px;
+  width: 160px;
+  padding: 5px;
+  background-color:#154360;
+  color:aliceblue;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.form-btn-save{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-save:hover {
+  background-color: #2d7cad
+}
+
+.btn-save:active{
+  background-color: #031f30
+}
+
+.header-transactions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color:#154360;
+}
+
+.title-transactions{
+  background-color:#154360;
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.individual-category-container{
+  background-color:#d3d4d5;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  color: #154360;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.individual-category-container p{
+  color: #154360;
+}
+
+.category-name-individual{
+  margin-right: 30px;
+}
+
+.category-amount-individual{
+  font-size: 20px;
+  color: #154360;
+  font-weight: 700;
+}
+
+.add-transaction-btn{
+  margin-top: 25px;
+  width: 160px;
+  padding: 5px;
+  background-color:#154360;
+  color:aliceblue;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 25px;
+}
+
+.add-transaction-btn-cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.transaction-name-input{
+  padding: 10px;
+  width: 320px;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.form-field-slect{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+#transaction_category_id{
+  padding: 5px;
+}
+
+.transaction-name{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  padding-left: 25px;
+}
+
+.transaction-amount{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  padding-left: 25px;
+  color: red;
+}
