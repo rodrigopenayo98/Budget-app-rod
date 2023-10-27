@@ -20,6 +20,4 @@ test:
 
 production:
   <<: *default
-  database:  budget_app_production_db
-  username: postgres
-  password: <%= ENV["BLOG_APP_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
