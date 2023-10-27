@@ -1,18 +1,18 @@
 databases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
+  - name: rod-db
+    databaseName: rod-db
+    user: rod_db_user
 
 services:
   - type: web
-    name: mysite
+    name: Budget-app-rod
     runtime: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: mysite
+          name: rod-db
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
