@@ -447,5 +447,100 @@ h1{
     background-color: #031f30
   }
 
-}
+  .header-transactions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color:#154360;
+  }
 
+  .title-transactions{
+    background-color:#154360;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .individual-category-container{
+    background-color:#d3d4d5;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    color: #154360;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .individual-category-container p{
+    color: #154360;
+  }
+
+  .category-name-individual{
+    margin-right: 30px;
+  }
+
+  .category-amount-individual{
+    font-size: 20px;
+    color: #154360;
+    font-weight: 700;
+  }
+
+  .add-transaction-btn{
+    margin-top: 25px;
+    width: 160px;
+    padding: 5px;
+    background-color:#154360;
+    color:aliceblue;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 25px;
+  }
+
+  .add-transaction-btn-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .transaction-name-input{
+    padding: 10px;
+    width: 320px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  .form-field-slect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  #transaction_category_id{
+    padding: 5px;
+  }
+
+  .transaction-name{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    padding-left: 25px;
+  }
+
+  .transaction-amount{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    padding-left: 25px;
+    color: red;
+  }
+
+}
