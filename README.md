@@ -10,7 +10,7 @@
   - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  <!-- - [🚀 Live Demo](#live-demo) -->
+   [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -78,11 +78,11 @@ Budget-app-rod is a mobile web app where you can manage your budget: you have a 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
+## LIVE DEMO 
 
-<!-- ## 🚀 Live Demo
+ 🚀 Live Demo
 
-To see the display of my portfolio use this link: (https://political-divisions.onrender.com/) -->
+To see the display of my portfolio use this link: (https://budget-app-rod.onrender.com/)
 
 <!-- GETTING STARTED -->
 
