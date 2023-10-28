@@ -68,6 +68,9 @@ Rails.application.configure do
     env.cache = ActiveSupport::Cache::FileStore.new(Rails.root.join('tmp', 'cache'))
   end
 
+  config.assets.digest = false
+
+
 
   # Raises error for missing translations.
   # config.i18n.raise_on_missing_translations = true
