@@ -187,7 +187,9 @@ If you like this project give a star
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-- We would like to thank Microverse community.
+ - Creative Commons license of the design and Gregoire Vella on Behance for her Original design idea.
+ - Microverse for providing the opportunity to learn Git and GitHub in a collaborative environment.
+ - GitHub Docs for providing a wealth of information on Git and GitHub.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
