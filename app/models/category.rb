@@ -1,16 +1,16 @@
 class Category < ApplicationRecord
   belongs_to :user, class_name: 'User', foreign_key: 'author_id'
-  has_many :related_transactions, through: :transaction_categories, source: :related_transaction
-  has_many :transaction_categories
-  has_many :transactions
+  has_many :related_payments, through: :payment_categories, source: :related_payment
+  has_many :payment_categories
+  has_many :payments
 
   validates :icon, presence: true
   validates :name, presence: true
 
   def total_amount
     total = 0
-    transactions.each do |transaction|
-      total += transaction.amount.to_i
+    payments.each do |payment|
+      total += payment.amount.to_i
     end
     total
   end

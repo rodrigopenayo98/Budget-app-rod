@@ -22,16 +22,16 @@ ActiveRecord::Schema[7.0].define(version: 20_231_025_024_506) do
     t.datetime 'updated_at', null: false
   end
 
-  create_table 'transaction_categories', force: :cascade do |t|
-    t.bigint 'transaction_id', null: false
+  create_table 'payment_categories', id: :bigint, default: -> { "nextval('transaction_categories_id_seq'::regclass)" }, force: :cascade do |t|
+    t.bigint 'payment_id', null: false
     t.bigint 'category_id', null: false
     t.datetime 'created_at', null: false
     t.datetime 'updated_at', null: false
     t.index ['category_id'], name: 'index_transaction_categories_on_category_id'
-    t.index ['transaction_id'], name: 'index_transaction_categories_on_transaction_id'
+    t.index ['payment_id'], name: 'index_transaction_categories_on_transaction_id'
   end
 
-  create_table 'transactions', force: :cascade do |t|
+  create_table 'payments', id: :bigint, default: -> { "nextval('transactions_id_seq'::regclass)" }, force: :cascade do |t|
     t.string 'name'
     t.decimal 'amount'
     t.integer 'author_id'
@@ -60,8 +60,8 @@ ActiveRecord::Schema[7.0].define(version: 20_231_025_024_506) do
     t.index ['reset_password_token'], name: 'index_users_on_reset_password_token', unique: true
   end
 
-  add_foreign_key 'transaction_categories', 'categories'
-  add_foreign_key 'transaction_categories', 'transactions'
-  add_foreign_key 'transactions', 'categories'
-  add_foreign_key 'transactions', 'users'
+  add_foreign_key 'payment_categories', 'categories'
+  add_foreign_key 'payment_categories', 'payments'
+  add_foreign_key 'payments', 'categories'
+  add_foreign_key 'payments', 'users'
 end

@@ -1,16 +1,16 @@
 <div class="category-header">
-  <a class="back-button" href="<%= category_transactions_path(@category) %>">
+  <a class="back-button" href="<%= category_payments_path(@category) %>">
     <img class="back-icon" src="<%= asset_path('back.png') %>" alt="Back">
   </a>
-  <h2 class="add-new-cat-title">Add a New Transaction</h2>
+  <h2 class="add-new-cat-title">Add a New Payment</h2>
 </div>
 
-<%= form_with(model: [@category, @transaction], url: category_transactions_path(@category)) do |form| %>
+<%= form_with(model: [@category, @payment], url: category_payments_path(@category)) do |form| %>
 
-  <div class="transaction-form-container">
+  <div class="payment-form-container">
 
     <div class="form-field">
-      <%= form.text_field :name, autofocus: true, autocomplete: "name", placeholder: "Transaction Name", class: "form-input", required: true, class: "transaction-name-input"  %>
+      <%= form.text_field :name, autofocus: true, autocomplete: "name", placeholder: "Payment Name", class: "form-input", required: true, class: "payment-name-input"  %>
     </div>
 
     <div class="form-field">

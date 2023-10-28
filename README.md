@@ -10,7 +10,7 @@
   - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-   [🚀 Live Demo](#live-demo)
+      [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -24,14 +24,14 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-
 # 📚 Budget-app-rod
 
-Budget-app-rod is a mobile web app where you can manage your budget: you have a list of transactions associated with a category, so you can see how much money you spent and on what.
+Budget-app-rod is a mobile web app where you can manage your budget: you have a list of payments associated with a category, so you can see how much money you spent and on what.
 
 **Objectives:**
+
 - Register and log in, so that the data is private to them..
-- Introduce new transactions associated with a category.
+- Introduce new payments associated with a category.
 - See the money spent on each category.
 - Running a Ruby program from the command line.
 
@@ -40,7 +40,6 @@ Budget-app-rod is a mobile web app where you can manage your budget: you have a 
 ## 🛠️ Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
 
 <!-- <details>
   <summary>REACT JS</summary>
@@ -70,27 +69,25 @@ Budget-app-rod is a mobile web app where you can manage your budget: you have a 
   </ul>
 </details>
 
-
 ## Key Features
+
 - Implement classes and objects in Ruby.
 - Implement encapsulation and inheritance with Ruby.
 - Run a program using the command line.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## LIVE DEMO 
+## LIVE DEMO
 
- 🚀 Live Demo
+🚀 Live Demo
 
-To see the display of my portfolio use this link: (https://budget-app-rod.onrender.com/) 
-
+To see the display of my portfolio use this link: (https://budget-app-rod.onrender.com/)
 
 You can also see a video of mine of a demonstration in this link (https://www.youtube.com/watch?v=D0-xjcWNNj4)
 
 <!-- GETTING STARTED -->
 
-
-## 💻 Getting Started 
+## 💻 Getting Started
 
 To get a local copy up and running, follow these steps.
 
@@ -98,8 +95,9 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-* ruby
-* any code editor but mostly use Vs Code and Sublime Text.
+- ruby
+- any code editor but mostly use Vs Code and Sublime Text.
+
 ### Setup
 
 Clone this repository to your desired folder:
@@ -155,15 +153,12 @@ To run linter tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 - **Improve user interface**
 - **Create a mobile version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -173,27 +168,22 @@ Feel free to check the [issues page](https://github.com/rodrigopenayo98/Budget-a
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## ⭐️ Show your support <a name="support"></a>
-
 
 If you like this project give a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
- - Creative Commons license of the design and Gregoire Vella on Behance for her Original design idea.
- - Microverse for providing the opportunity to learn Git and GitHub in a collaborative environment.
- - GitHub Docs for providing a wealth of information on Git and GitHub.
+- Creative Commons license of the design and Gregoire Vella on Behance for her Original design idea.
+- Microverse for providing the opportunity to learn Git and GitHub in a collaborative environment.
+- GitHub Docs for providing a wealth of information on Git and GitHub.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License
+
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

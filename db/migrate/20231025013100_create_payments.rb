@@ -1,6 +1,6 @@
-class CreateTransactions < ActiveRecord::Migration[7.0]
+class CreatePayments < ActiveRecord::Migration[7.0]
   def change
-    create_table :transactions do |t|
+    create_table :payments do |t|
       t.string :name
       t.decimal :amount
       t.integer :author_id
@@ -8,6 +8,6 @@ class CreateTransactions < ActiveRecord::Migration[7.0]
 
       t.timestamps
     end
-    add_reference :transactions, :category, foreign_key: true
+    add_reference :payments, :category, foreign_key: true
   end
 end

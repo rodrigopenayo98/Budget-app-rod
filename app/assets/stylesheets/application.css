@@ -14,53 +14,53 @@
  *= require_self
  */
 
-html{
+html {
   margin: 0px;
   padding: 0px;
 }
 
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
 
-h1{
+h1 {
   margin-top: 0px;
 }
 
-.header-splash{
-  background-color: #154360 ;
+.header-splash {
+  background-color: #154360;
   height: 85px;
-} 
+}
 
 
- @media (max-width: 768px) {
-  html{
+@media (max-width: 768px) {
+  html {
     margin: 0px;
     padding: 0px;
   }
-  
-  body{
+
+  body {
     margin: 0px;
     padding: 0px;
   }
-  
-  h1{
+
+  h1 {
     margin-top: 0px;
   }
-  
-  .header-splash{
-    background-color: #154360 ;
+
+  .header-splash {
+    background-color: #154360;
     height: 85px;
   }
-  
-  .title-splash{
+
+  .title-splash {
     font-family: 'Nunito', sans-serif;
     font-size: 45px;
     margin-bottom: 60px;
   }
 
-  .content-splash{
+  .content-splash {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,13 +70,13 @@ h1{
     padding-left: 40px;
   }
 
-  .links-container-splash{
+  .links-container-splash {
     display: flex;
     flex-direction: row;
     width: 350px;
   }
 
-  .links-container-splash a{
+  .links-container-splash a {
     text-decoration: none;
     font-family: 'Nunito', sans-serif;
     padding: 20px;
@@ -88,16 +88,16 @@ h1{
     text-align: center;
   }
 
-  .links-container-splash a:hover{
+  .links-container-splash a:hover {
     background-color: #2d7cad
   }
 
-  .links-container-splash a:active{
+  .links-container-splash a:active {
     background-color: #031f30
   }
 
-  .title-log-in{
-    background-color: #154360 ;
+  .title-log-in {
+    background-color: #154360;
     height: 70px;
     margin-top: 0px;
     font-family: 'Nunito', sans-serif;
@@ -108,22 +108,14 @@ h1{
     text-align: center;
   }
 
-  form{
+  form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .email-input{
-  padding: 10px;
-  width: 320px;
-  font-family: 'Nunito', sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  }
-
-  .pass-input{
+  .email-input {
     padding: 10px;
     width: 320px;
     font-family: 'Nunito', sans-serif;
@@ -131,13 +123,21 @@ h1{
     margin-bottom: 10px;
   }
 
-  .label-input{
-    font-family: 'Nunito', sans-serif; 
+  .pass-input {
+    padding: 10px;
+    width: 320px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .label-input {
+    font-family: 'Nunito', sans-serif;
     font-size: medium;
     padding-bottom: 10px;
   }
 
-  .field-check{
+  .field-check {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -146,13 +146,13 @@ h1{
     margin-bottom: 20px;
   }
 
-  .label-check{
+  .label-check {
     text-align: center;
-    font-family: 'Nunito', sans-serif; 
+    font-family: 'Nunito', sans-serif;
     font-size: medium;
   }
 
-  .btn-log-in{
+  .btn-log-in {
     width: 160px;
     padding: 5px;
     background-color: #154360;
@@ -161,23 +161,23 @@ h1{
     margin-bottom: 20px;
   }
 
-  .btn-log-in:hover{
+  .btn-log-in:hover {
     background-color: #2d7cad
   }
 
-  .btn-log-in a:active{
+  .btn-log-in a:active {
     background-color: #031f30
   }
 
-  .links-container-splash a:hover{
+  .links-container-splash a:hover {
     background-color: #2d7cad
   }
 
-  .links-container-splash a:active{
+  .links-container-splash a:active {
     background-color: #031f30
   }
 
-  .links-container{
+  .links-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -196,8 +196,8 @@ h1{
     text-decoration: underline;
   }
 
-  .title-sign-up{
-    background-color: #154360 ;
+  .title-sign-up {
+    background-color: #154360;
     height: 70px;
     margin-top: 0px;
     font-family: 'Nunito', sans-serif;
@@ -209,7 +209,7 @@ h1{
   }
 
   .title-resend {
-    background-color: #154360 ;
+    background-color: #154360;
     height: 70px;
     margin-top: 0px;
     font-family: 'Nunito', sans-serif;
@@ -222,8 +222,8 @@ h1{
     justify-content: center;
     align-items: center;
   }
-  
-  .btn-resend{
+
+  .btn-resend {
     width: 220px;
     padding: 5px;
     background-color: #154360;
@@ -237,25 +237,25 @@ h1{
     background-color: #2d7cad
   }
 
-  .btn-resend:active{
+  .btn-resend:active {
     background-color: #031f30
   }
 
-  .contaienr-img{
+  .contaienr-img {
     width: 30px;
     height: 30px;
   }
 
-  .category-image{
+  .category-image {
     width: 30px;
     height: 30px;
   }
 
-  .main-title-contaienr{
+  .main-title-contaienr {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #154360 ;
+    background-color: #154360;
     height: 70px;
     margin-top: 0px;
     font-family: 'Nunito', sans-serif;
@@ -270,16 +270,16 @@ h1{
     flex: 1;
     text-align: center;
   }
-  
+
   button {
     margin-left: auto;
   }
-  
-  .btn-log-out{
+
+  .btn-log-out {
     width: 60px;
     padding: 5px;
-    background-color:aliceblue;
-    color:#154360;
+    background-color: aliceblue;
+    color: #154360;
     cursor: pointer;
     border: none;
   }
@@ -288,11 +288,11 @@ h1{
     background-color: #888b8d
   }
 
-  .btn-log-out:active{
+  .btn-log-out:active {
     background-color: #161a1d
   }
 
-  .container{
+  .container {
     background-color: #E5E7E9;
     height: 100vh;
   }
@@ -301,7 +301,7 @@ h1{
     margin: 15px;
   }
 
-  .container-category{
+  .container-category {
     border: 1px solid #d3d4d5;
     margin-bottom: 15px;
     display: flex;
@@ -313,13 +313,13 @@ h1{
     background-color: #ffffff;
   }
 
-  .container-img{
+  .container-img {
     width: 120px;
     display: flex;
     justify-content: center;
   }
 
-  .container-p{
+  .container-p {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -328,46 +328,46 @@ h1{
     font-size: 20px;
   }
 
-  .categories a{
+  .categories a {
     text-decoration: none;
   }
 
-  .category-name{
+  .category-name {
     text-decoration: none;
     color: #031f30;
   }
 
-  .category-name:hover{
+  .category-name:hover {
     text-decoration: underline;
   }
 
-  .category-amount{
+  .category-amount {
     text-decoration: none;
     color: #031f30;
     font-weight: 700;
   }
 
-  .category-image{
+  .category-image {
     height: 85px;
     width: 85px;
   }
 
-  .add-category-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .add-category-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  .add-category-container a{
+  .add-category-container a {
     text-decoration: none;
   }
 
-  .btn-add-category{
+  .btn-add-category {
     margin-top: 25px;
     width: 160px;
     padding: 5px;
-    background-color:#154360;
-    color:aliceblue;
+    background-color: #154360;
+    color: aliceblue;
     cursor: pointer;
     border: none;
     margin-bottom: 25px;
@@ -377,12 +377,12 @@ h1{
     background-color: #2d7cad
   }
 
-  .btn-add-category:active{
+  .btn-add-category:active {
     background-color: #031f30
   }
 
-  .add-new-cat-title{
-    background-color: #154360 ;
+  .add-new-cat-title {
+    background-color: #154360;
     height: 70px;
     margin-top: 56px;
     font-family: 'Nunito', sans-serif;
@@ -399,7 +399,7 @@ h1{
     border: none;
   }
 
-  .category-header{
+  .category-header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -407,7 +407,7 @@ h1{
     height: 80px;
   }
 
-  .back-button{
+  .back-button {
     margin-right: auto;
     background-color: #154360;
     height: 70px;
@@ -418,22 +418,22 @@ h1{
     border-right: 1px solid #154360;
   }
 
-  .category-form{
+  .category-form {
     margin-top: 40px;
   }
 
-  .btn-save{
+  .btn-save {
     margin-top: 25px;
     width: 160px;
     padding: 5px;
-    background-color:#154360;
-    color:aliceblue;
+    background-color: #154360;
+    color: aliceblue;
     cursor: pointer;
     border: none;
     margin-bottom: 25px;
   }
-  
-  .form-btn-save{
+
+  .form-btn-save {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -443,20 +443,20 @@ h1{
     background-color: #2d7cad
   }
 
-  .btn-save:active{
+  .btn-save:active {
     background-color: #031f30
   }
 
-  .header-transactions{
+  .header-payments {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color:#154360;
+    background-color: #154360;
   }
 
-  .title-transactions{
-    background-color:#154360;
+  .title-payments {
+    background-color: #154360;
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
     color: aliceblue;
@@ -467,8 +467,8 @@ h1{
     width: 100%;
   }
 
-  .individual-category-container{
-    background-color:#d3d4d5;
+  .individual-category-container {
+    background-color: #d3d4d5;
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
     color: #154360;
@@ -479,39 +479,39 @@ h1{
     width: 100%;
   }
 
-  .individual-category-container p{
+  .individual-category-container p {
     color: #154360;
   }
 
-  .category-name-individual{
+  .category-name-individual {
     margin-right: 30px;
   }
 
-  .category-amount-individual{
+  .category-amount-individual {
     font-size: 20px;
     color: #154360;
     font-weight: 700;
   }
 
-  .add-transaction-btn{
+  .add-payment-btn {
     margin-top: 25px;
     width: 160px;
     padding: 5px;
-    background-color:#154360;
-    color:aliceblue;
+    background-color: #154360;
+    color: aliceblue;
     cursor: pointer;
     border: none;
     margin-bottom: 25px;
   }
 
-  .add-transaction-btn-cont{
+  .add-payment-btn-cont {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
   }
 
-  .transaction-name-input{
+  .payment-name-input {
     padding: 10px;
     width: 320px;
     font-family: 'Nunito', sans-serif;
@@ -519,24 +519,24 @@ h1{
     margin-bottom: 10px;
   }
 
-  .form-field-slect{
+  .form-field-slect {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px;
   }
 
-  #transaction_category_id{
+  #payment_category_id {
     padding: 5px;
   }
 
-  .transaction-name{
+  .payment-name {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     padding-left: 25px;
   }
 
-  .transaction-amount{
+  .payment-amount {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     padding-left: 25px;
@@ -545,32 +545,32 @@ h1{
 
 }
 
-html{
+html {
   margin: 0px;
   padding: 0px;
 }
 
-body{
+body {
   margin: 0px;
   padding: 0px;
 }
 
-h1{
+h1 {
   margin-top: 0px;
 }
 
-.header-splash{
-  background-color: #154360 ;
+.header-splash {
+  background-color: #154360;
   height: 85px;
 }
 
-.title-splash{
+.title-splash {
   font-family: 'Nunito', sans-serif;
   font-size: 45px;
   margin-bottom: 60px;
 }
 
-.content-splash{
+.content-splash {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -580,13 +580,13 @@ h1{
   padding-left: 40px;
 }
 
-.links-container-splash{
+.links-container-splash {
   display: flex;
   flex-direction: row;
   width: 350px;
 }
 
-.links-container-splash a{
+.links-container-splash a {
   text-decoration: none;
   font-family: 'Nunito', sans-serif;
   padding: 20px;
@@ -598,16 +598,16 @@ h1{
   text-align: center;
 }
 
-.links-container-splash a:hover{
+.links-container-splash a:hover {
   background-color: #2d7cad
 }
 
-.links-container-splash a:active{
+.links-container-splash a:active {
   background-color: #031f30
 }
 
-.title-log-in{
-  background-color: #154360 ;
+.title-log-in {
+  background-color: #154360;
   height: 70px;
   margin-top: 0px;
   font-family: 'Nunito', sans-serif;
@@ -618,22 +618,14 @@ h1{
   text-align: center;
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.email-input{
-padding: 10px;
-width: 320px;
-font-family: 'Nunito', sans-serif;
-margin-top: 10px;
-margin-bottom: 10px;
-}
-
-.pass-input{
+.email-input {
   padding: 10px;
   width: 320px;
   font-family: 'Nunito', sans-serif;
@@ -641,13 +633,21 @@ margin-bottom: 10px;
   margin-bottom: 10px;
 }
 
-.label-input{
-  font-family: 'Nunito', sans-serif; 
+.pass-input {
+  padding: 10px;
+  width: 320px;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.label-input {
+  font-family: 'Nunito', sans-serif;
   font-size: medium;
   padding-bottom: 10px;
 }
 
-.field-check{
+.field-check {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -656,13 +656,13 @@ margin-bottom: 10px;
   margin-bottom: 20px;
 }
 
-.label-check{
+.label-check {
   text-align: center;
-  font-family: 'Nunito', sans-serif; 
+  font-family: 'Nunito', sans-serif;
   font-size: medium;
 }
 
-.btn-log-in{
+.btn-log-in {
   width: 160px;
   padding: 5px;
   background-color: #154360;
@@ -671,23 +671,23 @@ margin-bottom: 10px;
   margin-bottom: 20px;
 }
 
-.btn-log-in:hover{
+.btn-log-in:hover {
   background-color: #2d7cad
 }
 
-.btn-log-in a:active{
+.btn-log-in a:active {
   background-color: #031f30
 }
 
-.links-container-splash a:hover{
+.links-container-splash a:hover {
   background-color: #2d7cad
 }
 
-.links-container-splash a:active{
+.links-container-splash a:active {
   background-color: #031f30
 }
 
-.links-container{
+.links-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -706,8 +706,8 @@ margin-bottom: 10px;
   text-decoration: underline;
 }
 
-.title-sign-up{
-  background-color: #154360 ;
+.title-sign-up {
+  background-color: #154360;
   height: 70px;
   margin-top: 0px;
   font-family: 'Nunito', sans-serif;
@@ -719,7 +719,7 @@ margin-bottom: 10px;
 }
 
 .title-resend {
-  background-color: #154360 ;
+  background-color: #154360;
   height: 70px;
   margin-top: 0px;
   font-family: 'Nunito', sans-serif;
@@ -733,7 +733,7 @@ margin-bottom: 10px;
   align-items: center;
 }
 
-.btn-resend{
+.btn-resend {
   width: 220px;
   padding: 5px;
   background-color: #154360;
@@ -747,25 +747,25 @@ margin-bottom: 10px;
   background-color: #2d7cad
 }
 
-.btn-resend:active{
+.btn-resend:active {
   background-color: #031f30
 }
 
-.contaienr-img{
+.contaienr-img {
   width: 30px;
   height: 30px;
 }
 
-.category-image{
+.category-image {
   width: 30px;
   height: 30px;
 }
 
-.main-title-contaienr{
+.main-title-contaienr {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #154360 ;
+  background-color: #154360;
   height: 70px;
   margin-top: 0px;
   font-family: 'Nunito', sans-serif;
@@ -785,11 +785,11 @@ button {
   margin-left: auto;
 }
 
-.btn-log-out{
+.btn-log-out {
   width: 60px;
   padding: 5px;
-  background-color:aliceblue;
-  color:#154360;
+  background-color: aliceblue;
+  color: #154360;
   cursor: pointer;
   border: none;
 }
@@ -798,11 +798,11 @@ button {
   background-color: #888b8d
 }
 
-.btn-log-out:active{
+.btn-log-out:active {
   background-color: #161a1d
 }
 
-.container{
+.container {
   background-color: #E5E7E9;
   height: 100vh;
 }
@@ -811,7 +811,7 @@ button {
   margin: 15px;
 }
 
-.container-category{
+.container-category {
   border: 1px solid #d3d4d5;
   margin-bottom: 15px;
   display: flex;
@@ -823,13 +823,13 @@ button {
   background-color: #ffffff;
 }
 
-.container-img{
+.container-img {
   width: 120px;
   display: flex;
   justify-content: center;
 }
 
-.container-p{
+.container-p {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -838,46 +838,46 @@ button {
   font-size: 20px;
 }
 
-.categories a{
+.categories a {
   text-decoration: none;
 }
 
-.category-name{
+.category-name {
   text-decoration: none;
   color: #031f30;
 }
 
-.category-name:hover{
+.category-name:hover {
   text-decoration: underline;
 }
 
-.category-amount{
+.category-amount {
   text-decoration: none;
   color: #031f30;
   font-weight: 700;
 }
 
-.category-image{
+.category-image {
   height: 85px;
   width: 85px;
 }
 
-.add-category-container{
-display: flex;
-justify-content: center;
-align-items: center;
+.add-category-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.add-category-container a{
+.add-category-container a {
   text-decoration: none;
 }
 
-.btn-add-category{
+.btn-add-category {
   margin-top: 25px;
   width: 160px;
   padding: 5px;
-  background-color:#154360;
-  color:aliceblue;
+  background-color: #154360;
+  color: aliceblue;
   cursor: pointer;
   border: none;
   margin-bottom: 25px;
@@ -887,12 +887,12 @@ align-items: center;
   background-color: #2d7cad
 }
 
-.btn-add-category:active{
+.btn-add-category:active {
   background-color: #031f30
 }
 
-.add-new-cat-title{
-  background-color: #154360 ;
+.add-new-cat-title {
+  background-color: #154360;
   height: 70px;
   margin-top: 56px;
   font-family: 'Nunito', sans-serif;
@@ -909,7 +909,7 @@ align-items: center;
   border: none;
 }
 
-.category-header{
+.category-header {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -917,7 +917,7 @@ align-items: center;
   height: 80px;
 }
 
-.back-button{
+.back-button {
   margin-right: auto;
   background-color: #154360;
   height: 70px;
@@ -928,22 +928,22 @@ align-items: center;
   border-right: 1px solid #154360;
 }
 
-.category-form{
+.category-form {
   margin-top: 40px;
 }
 
-.btn-save{
+.btn-save {
   margin-top: 25px;
   width: 160px;
   padding: 5px;
-  background-color:#154360;
-  color:aliceblue;
+  background-color: #154360;
+  color: aliceblue;
   cursor: pointer;
   border: none;
   margin-bottom: 25px;
 }
 
-.form-btn-save{
+.form-btn-save {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -953,20 +953,20 @@ align-items: center;
   background-color: #2d7cad
 }
 
-.btn-save:active{
+.btn-save:active {
   background-color: #031f30
 }
 
-.header-transactions{
+.header-payments {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  background-color:#154360;
+  background-color: #154360;
 }
 
-.title-transactions{
-  background-color:#154360;
+.title-payments {
+  background-color: #154360;
   font-family: 'Nunito', sans-serif;
   font-size: 25px;
   color: aliceblue;
@@ -977,8 +977,8 @@ align-items: center;
   width: 100%;
 }
 
-.individual-category-container{
-  background-color:#d3d4d5;
+.individual-category-container {
+  background-color: #d3d4d5;
   font-family: 'Nunito', sans-serif;
   font-size: 15px;
   color: #154360;
@@ -989,39 +989,39 @@ align-items: center;
   width: 100%;
 }
 
-.individual-category-container p{
+.individual-category-container p {
   color: #154360;
 }
 
-.category-name-individual{
+.category-name-individual {
   margin-right: 30px;
 }
 
-.category-amount-individual{
+.category-amount-individual {
   font-size: 20px;
   color: #154360;
   font-weight: 700;
 }
 
-.add-transaction-btn{
+.add-payment-btn {
   margin-top: 25px;
   width: 160px;
   padding: 5px;
-  background-color:#154360;
-  color:aliceblue;
+  background-color: #154360;
+  color: aliceblue;
   cursor: pointer;
   border: none;
   margin-bottom: 25px;
 }
 
-.add-transaction-btn-cont{
+.add-payment-btn-cont {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 
-.transaction-name-input{
+.payment-name-input {
   padding: 10px;
   width: 320px;
   font-family: 'Nunito', sans-serif;
@@ -1029,24 +1029,24 @@ align-items: center;
   margin-bottom: 10px;
 }
 
-.form-field-slect{
+.form-field-slect {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
 
-#transaction_category_id{
+#payment_category_id {
   padding: 5px;
 }
 
-.transaction-name{
+.payment-name {
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
   padding-left: 25px;
 }
 
-.transaction-amount{
+.payment-amount {
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
   padding-left: 25px;

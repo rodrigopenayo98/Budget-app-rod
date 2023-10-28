@@ -8,11 +8,11 @@
 <div class="categories">
   <% @categories.each do |category| %>
 
-    <a href="<%= category_transactions_path(category) %>" class="category-card">
+    <a href="<%= category_payments_path(category) %>" class="category-card">
       <div class="container-category">
 
         <div class="container-img">
-          <img class="category-image" src="<%= asset_path('transaction.png') %>" alt="<%= category.name %>_image">
+          <img class="category-image" src="<%= asset_path('payment.png') %>" alt="<%= category.name %>_image">
         </div>
 
         <div class="container-p">
