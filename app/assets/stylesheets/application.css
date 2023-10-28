@@ -297,10 +297,12 @@ h1 {
   .container {
     background-color: #E5E7E9;
     height: 100vh;
+    height: 100vh;
   }
 
   .categories {
     margin: 15px;
+    height: 69.5vh;
   }
 
   .container-category {
@@ -358,21 +360,30 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0bcb0b;
+    margin-top: auto;
+    padding: 10px; /* Agrega un espacio entre el elemento y el fondo */
+    height: 80px; /* Ajusta la altura si es necesario */
   }
 
   .add-category-container a {
     text-decoration: none;
+    width: 90%;
   }
 
   .btn-add-category {
     margin-top: 25px;
-    width: 160px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding: 5px;
-    background-color: #154360;
+    background-color: #0bcb0b ;
     color: aliceblue;
     cursor: pointer;
-    border: none;
+    border: 1px solid white;
     margin-bottom: 25px;
+    height: 55px;
+    font-size: 25px;
   }
 
   .btn-add-category:hover {
