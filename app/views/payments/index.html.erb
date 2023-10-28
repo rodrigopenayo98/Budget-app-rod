@@ -1,9 +1,9 @@
-<div class="header-transactions">
+<div class="header-payments">
   <a class="back-button" href="<%= categories_path(@category) %>">
       <img class="back-icon" src="<%= asset_path('back.png') %>" alt="back-icon">
   </a>
 
-  <h2 class="title-transactions">Transactions</h2>
+  <h2 class="title-payments">Payments</h2>
 
 </div>
 
@@ -14,19 +14,19 @@
 
 <div class="categories">
 
-    <% @transactions.each do |transaction| %>
+    <% @payments.each do |payment| %>
 
       <div class="container-category">
-        <p class="transaction-name"><%= transaction.name %></p>
-        <p class="transaction-amount">$<%= transaction.amount %></p>
+        <p class="payment-name"><%= payment.name %></p>
+        <p class="payment-amount">$<%= payment.amount %></p>
       </div>
       
     <% end %>
     </div>
 
-  <div class="add-transaction-btn-cont">
-  <a class="add-transaction-a" href="<%= new_category_transaction_path(@category) %>">
-    <button class="add-transaction-btn">Add a New Transaction</button>
+  <div class="add-payment-btn-cont">
+  <a class="add-payment-a" href="<%= new_category_payment_path(@category) %>">
+    <button class="add-payment-btn">Add a New Payment</button>
   </a>
   </div>
 </div>

@@ -30,18 +30,18 @@ RSpec.describe Category, type: :model do
     expect(association.foreign_key).to eq('author_id')
   end
 
-  it 'should have many related transactions through transaction categories' do
-    association = Category.reflect_on_association(:related_transactions)
+  it 'should have many related payments through payment categories' do
+    association = Category.reflect_on_association(:related_payments)
     expect(association.macro).to eq(:has_many)
   end
 
-  it 'should have many transaction categories' do
-    association = Category.reflect_on_association(:transaction_categories)
+  it 'should have many payment categories' do
+    association = Category.reflect_on_association(:payment_categories)
     expect(association.macro).to eq(:has_many)
   end
 
-  it 'should have many transactions' do
-    association = Category.reflect_on_association(:transactions)
+  it 'should have many payments' do
+    association = Category.reflect_on_association(:payments)
     expect(association.macro).to eq(:has_many)
   end
 end
