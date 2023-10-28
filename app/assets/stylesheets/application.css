@@ -478,6 +478,7 @@ h1 {
     align-items: center;
     text-align: center;
     width: 100%;
+    padding-right: 60px;
   }
 
   .individual-category-container {
@@ -508,20 +509,24 @@ h1 {
 
   .add-payment-btn {
     margin-top: 25px;
-    width: 160px;
+    width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding: 5px;
-    background-color: #154360;
+    background-color: #0bcb0b ;
     color: aliceblue;
+    border: 1px solid white;
     cursor: pointer;
-    border: none;
+    background-color: #0bcb0b ;
     margin-bottom: 25px;
+    height: 55px;
+    font-size: 25px;
+    margin-left: 20px;
   }
 
   .add-payment-btn-cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
+    background-color: #0bcb0b
   }
 
   .payment-name-input {
