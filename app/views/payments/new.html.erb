@@ -1,0 +1,29 @@
+<div class="category-header">
+  <a class="back-button" href="<%= category_payments_path(@category) %>">
+    <img class="back-icon" src="<%= asset_path('back.png') %>" alt="Back">
+  </a>
+  <h2 class="add-new-cat-title">Add a New Payment</h2>
+</div>
+
+<%= form_with(model: [@category, @payment], url: category_payments_path(@category)) do |form| %>
+
+  <div class="payment-form-container">
+
+    <div class="form-field">
+      <%= form.text_field :name, autofocus: true, autocomplete: "name", placeholder: "Payment Name", class: "form-input", required: true, class: "payment-name-input"  %>
+    </div>
+
+    <div class="form-field">
+      <%= form.number_field :amount, autocomplete: "amount", placeholder: "Amount", class: "form-input", required: true, class: "email-input" %>
+    </div>
+
+    <div class="form-field-slect">
+      <%= form.collection_select :category_id, Category.all, :id, :name, prompt: 'Select a Category', class: "select" %>
+    </div>
+
+    <div class="form-btn-save">
+      <%= form.submit 'Save', class: "btn-save" %>
+    </div>
+  </div>
+
+<% end %>
